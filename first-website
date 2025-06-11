@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href ="style.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div id="header">
+                <div class ="logo">
+                    <img src="JC.png.png">
 
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <i class="fa fa-bars">  </i>
+            </div>
+            <div class="hero" id="hero-area"">
+                <div class="content">
+                    <h3>Hello i'm</h3>
+                    <h1>Justyn <br> <span>Carter</span></h1>
+                    <p> I am a first-year Computer Science major at the University of Illinois Chicago. I’m interested in Full-Stack Development and AI/ML    </p>
+               
+                    <div class="contect-section">
+                        <button class="btnContact">Contact me</button>
+                        <div class=""social-icons>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
